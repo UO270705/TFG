@@ -355,4 +355,4 @@ for ccc in ['CCC', '', '']: #
             y_truth = dfRatio.loc[inicio:fechas[2]].copy()
             print(y_truth)
             prediccionRatioProphet(y_train, y_truth, tarifa, ccc)
-            prediccionRatioProphet(y_train, y_truth,tarifa,ccc)
+            prediccionRatioNeuralProphet(y_train, y_truth,tarifa,ccc)
